@@ -359,7 +359,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 21.59 180)
+		(at 35.56 21.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -368,7 +368,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c9d4765-95a3-47a5-aa91-7de6e16a7155")
 		(property "Reference" "#PWR01"
-			(at 38.1 15.24 0)
+			(at 35.56 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 16.51 0)
+			(at 35.56 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 21.59 0)
+			(at 35.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 21.59 0)
+			(at 35.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 21.59 0)
+			(at 35.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +425,7 @@
 	)
 	(symbol
 		(lib_id "custom_power:VREF")
-		(at 49.53 21.59 0)
+		(at 46.99 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -434,7 +434,7 @@
 		(fields_autoplaced yes)
 		(uuid "53a7184f-7988-409a-86a8-199228c6d50b")
 		(property "Reference" "#PWR03"
-			(at 49.53 25.4 0)
+			(at 46.99 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +443,7 @@
 			)
 		)
 		(property "Value" "VREF"
-			(at 49.53 16.51 0)
+			(at 46.99 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 21.59 0)
+			(at 46.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 21.59 0)
+			(at 46.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VREF\""
-			(at 49.53 21.59 0)
+			(at 46.99 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,16 +491,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 44.45 21.59 0)
+		(at 95.25 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7bd590a0-df56-4d7d-8a90-3d0262f0dc67")
-		(property "Reference" "#PWR02"
-			(at 44.45 25.4 0)
+		(uuid "610fa0a2-4942-4149-8c01-c8067ff3bf4b")
+		(property "Reference" "#PWR063"
+			(at 95.25 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +509,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 44.45 16.51 0)
+			(at 95.25 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 21.59 0)
+			(at 95.25 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +535,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 44.45 21.59 0)
+			(at 95.25 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2fa14c1-f844-47cd-8d75-276327c21d28")
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 41.91 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd590a0-df56-4d7d-8a90-3d0262f0dc67")
+		(property "Reference" "#PWR02"
+			(at 41.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 41.91 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 41.91 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,9 +621,275 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "custom_power:VREF")
+		(at 100.33 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfcab99-f698-4848-8086-ba26fd31629d")
+		(property "Reference" "#PWR064"
+			(at 100.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VREF"
+			(at 100.33 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VREF\""
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "499795d0-7a99-413b-b331-72233017e027")
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5703f3f-c068-496d-88d5-47e69551941c")
+		(property "Reference" "#PWR062"
+			(at 88.9 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93a75cd5-e1e8-4107-a20e-a6dea9e5b164")
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.778 22.098)
+		(size 33.274 21.844)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16e5f263-6116-424c-afa3-8a788069419a")
+		(property "Sheetname" "Reverb"
+			(at 128.778 21.3864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reverb.kicad_sch"
+			(at 128.778 44.5266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.454 22.098)
+		(size 35.814 21.844)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "316dd2f9-8ca9-41e3-a76f-ca74e0b9beb1")
+		(property "Sheetname" "Octaver"
+			(at 76.454 21.3864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "octaver.kicad_sch"
+			(at 76.454 44.5266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 88.9 22.098 90)
+			(uuid "13a10310-60d2-4b90-8796-5b141c46125a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Signal In" input
+			(at 76.454 39.37 180)
+			(uuid "311d5d0e-b923-49fa-a7bc-cefa3996b30d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Signal Out" input
+			(at 112.268 39.37 0)
+			(uuid "724d7c5f-73a2-499d-878e-8eda8941ea85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" bidirectional
+			(at 93.98 22.098 90)
+			(uuid "326a76b2-2e90-4b8b-99ad-855abfc95e73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF" bidirectional
+			(at 99.06 22.098 90)
+			(uuid "a11a2071-3584-4714-b327-1f6ab0e0d560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 24.13 21.59)
-		(size 39.37 24.384)
+		(size 34.29 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -581,7 +913,7 @@
 			)
 		)
 		(property "Sheetfile" "overdrive.kicad_sch"
-			(at 24.13 46.5586 0)
+			(at 24.13 44.5266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,7 +932,7 @@
 			)
 		)
 		(pin "GND" bidirectional
-			(at 38.1 21.59 90)
+			(at 35.56 21.59 90)
 			(uuid "0a5d25b5-2511-43a7-8e4b-4e1c18a98eb8")
 			(effects
 				(font
@@ -610,7 +942,7 @@
 			)
 		)
 		(pin "Signal Out" output
-			(at 63.5 38.1 0)
+			(at 58.42 38.1 0)
 			(uuid "c56c6368-fafa-431a-8790-79a0a6783d56")
 			(effects
 				(font
@@ -620,7 +952,7 @@
 			)
 		)
 		(pin "VCC" bidirectional
-			(at 44.45 21.59 90)
+			(at 41.91 21.59 90)
 			(uuid "84490ea6-aca3-40fc-9b10-7c4ecb01a39f")
 			(effects
 				(font
@@ -630,7 +962,7 @@
 			)
 		)
 		(pin "VREF" bidirectional
-			(at 49.53 21.59 90)
+			(at 46.99 21.59 90)
 			(uuid "10794e50-0a66-4412-98b6-dedb57e432b9")
 			(effects
 				(font
