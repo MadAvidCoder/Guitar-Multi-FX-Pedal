@@ -1428,6 +1428,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 175.006 21.336)
+		(size 41.402 22.606)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f51c2800-4ae6-418f-bd9b-4f39723fef44")
+		(property "Sheetname" "Chorus"
+			(at 175.006 20.6244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chorus.kicad_sch"
+			(at 175.006 44.5266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
