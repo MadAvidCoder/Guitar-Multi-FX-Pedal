@@ -3230,6 +3230,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 243.84) (xy 71.12 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c56c5a-e180-4d40-8b2a-26bc4eab8b83")
+	)
+	(wire
+		(pts
 			(xy 270.51 100.33) (xy 275.59 100.33)
 		)
 		(stroke
@@ -3647,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "549c777b-abdd-4c4e-8ecc-2b12c1c97467")
+	)
+	(wire
+		(pts
+			(xy 59.69 243.84) (xy 60.96 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e58d85-b80e-4b23-b948-2d3acee6e019")
 	)
 	(wire
 		(pts
@@ -4820,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 251.46) (xy 72.39 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9af5b6f-5205-4dec-bdea-9caba06c63b2")
+	)
+	(wire
+		(pts
 			(xy 185.42 81.28) (xy 185.42 67.31)
 		)
 		(stroke
@@ -5327,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "d62f04ed-1987-4a7a-bf76-1f701fa7954e")
+	)
+	(wire
+		(pts
+			(xy 60.96 247.65) (xy 59.69 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74a2751-411a-4578-bf1e-a438fa3be0f4")
 	)
 	(wire
 		(pts
@@ -5948,6 +5988,17 @@
 		)
 		(uuid "fbe679ad-9752-4c50-acc1-a7db8232161c")
 	)
+	(hierarchical_label "5V"
+		(shape bidirectional)
+		(at 71.12 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3556e071-fdc5-4175-956b-45d0e1490d5e")
+	)
 	(hierarchical_label "Signal Out"
 		(shape output)
 		(at 374.65 26.67 0)
@@ -5959,6 +6010,17 @@
 		)
 		(uuid "6185b563-b60a-4d73-80c8-a0f1c78ed883")
 	)
+	(hierarchical_label "VREF"
+		(shape bidirectional)
+		(at 71.12 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b419855-6f39-44c3-8ab4-daaa38f6681c")
+	)
 	(hierarchical_label "Signal In"
 		(shape input)
 		(at 25.4 29.21 180)
@@ -5969,6 +6031,28 @@
 			(justify right)
 		)
 		(uuid "cf67b040-5452-4f27-bc9f-b3d4377d105d")
+	)
+	(hierarchical_label "VCC"
+		(shape bidirectional)
+		(at 59.69 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2208cd6-7541-4295-8356-35b1d0dc1b08")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 59.69 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5873c90-b130-4248-8e7b-4db4c5486987")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7531,6 +7615,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24a774de-13d3-4f80-adde-69beb8935c54")
+		(property "Reference" "#PWR0112"
+			(at 60.96 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3f0ca01-c63d-4126-b09f-527f6bab50a9")
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a/16e5f263-6116-424c-afa3-8a788069419a"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 363.22 78.74 0)
 		(unit 1)
@@ -8579,25 +8729,25 @@
 			)
 		)
 		(pin "11"
-			(uuid "9161b9d9-47ae-4933-b045-4e4034875a99")
+			(uuid "9161b9d9-47ae-4933-b045-4e4034875a9a")
 		)
 		(pin "10"
-			(uuid "7b8d87bd-40b2-4fcc-ad15-108b4ebffb1a")
+			(uuid "7b8d87bd-40b2-4fcc-ad15-108b4ebffb1b")
 		)
 		(pin "1"
 			(uuid "97e94089-e8ec-4e20-8d65-65ad0d34f8c8")
 		)
 		(pin "6"
-			(uuid "d276ac4b-a084-41cb-9613-f7daff088ab8")
+			(uuid "d276ac4b-a084-41cb-9613-f7daff088ab9")
 		)
 		(pin "9"
-			(uuid "9c835ec8-2073-4333-9d46-8287f81f32a8")
+			(uuid "9c835ec8-2073-4333-9d46-8287f81f32a9")
 		)
 		(pin "8"
-			(uuid "76f53100-9b8a-4357-9045-7e2183f03c3f")
+			(uuid "76f53100-9b8a-4357-9045-7e2183f03c40")
 		)
 		(pin "5"
-			(uuid "41479f9e-24ff-4d45-bb91-31d01b44a8c8")
+			(uuid "41479f9e-24ff-4d45-bb91-31d01b44a8c9")
 		)
 		(pin "2"
 			(uuid "37b2d5c5-fb55-46e8-965c-546f8a6fde94")
@@ -8606,19 +8756,19 @@
 			(uuid "5c3442eb-90bf-403f-9d2d-0b93782f25dd")
 		)
 		(pin "7"
-			(uuid "8d577a10-d2e8-48c2-b104-9f846640f72f")
+			(uuid "8d577a10-d2e8-48c2-b104-9f846640f730")
 		)
 		(pin "13"
-			(uuid "608028dc-fa2b-4cbc-890b-a9d63192e05a")
+			(uuid "608028dc-fa2b-4cbc-890b-a9d63192e05b")
 		)
 		(pin "4"
-			(uuid "f578d45a-7ee4-45e2-b446-1784560a9c7c")
+			(uuid "f578d45a-7ee4-45e2-b446-1784560a9c7d")
 		)
 		(pin "14"
-			(uuid "c24f2edd-cdee-4045-9f79-8cf5b5d5bb8d")
+			(uuid "c24f2edd-cdee-4045-9f79-8cf5b5d5bb8e")
 		)
 		(pin "12"
-			(uuid "e67f7261-5546-4c45-8fd4-5345b216bfce")
+			(uuid "e67f7261-5546-4c45-8fd4-5345b216bfcf")
 		)
 		(instances
 			(project "Guitar Multi FX Pedal"
@@ -12029,6 +12179,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 60.96 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c36a63e-e306-4897-a05c-254ddcab1f92")
+		(property "Reference" "#PWR0113"
+			(at 60.96 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 60.96 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 60.96 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00a185d-4775-4ce1-bf2a-9e59eb68aa1c")
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a/16e5f263-6116-424c-afa3-8a788069419a"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 177.8 90)
 		(unit 1)
@@ -12689,19 +12905,19 @@
 			)
 		)
 		(pin "12"
-			(uuid "7e3cc710-61f8-498e-a6d3-311069654169")
+			(uuid "7e3cc710-61f8-498e-a6d3-31106965416a")
 		)
 		(pin "14"
-			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67aa")
+			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67ab")
 		)
 		(pin "2"
-			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c7f")
+			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c80")
 		)
 		(pin "6"
 			(uuid "43c4ee69-34cb-48b3-93a6-483b8b3929e6")
 		)
 		(pin "1"
-			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef6")
+			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef7")
 		)
 		(pin "5"
 			(uuid "469b9339-458d-4c1d-ac73-5f34a3fc228f")
@@ -12710,31 +12926,97 @@
 			(uuid "cacf386e-1c23-47dc-8153-98148f228723")
 		)
 		(pin "10"
-			(uuid "301ee430-22e5-45fc-9913-64dbde34310b")
+			(uuid "301ee430-22e5-45fc-9913-64dbde34310c")
 		)
 		(pin "3"
-			(uuid "69d2ca14-38c2-4751-b624-7774f11dea5f")
+			(uuid "69d2ca14-38c2-4751-b624-7774f11dea60")
 		)
 		(pin "9"
-			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd98")
+			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd99")
 		)
 		(pin "8"
-			(uuid "1696c543-eca7-423d-af06-1b0890f4c581")
+			(uuid "1696c543-eca7-423d-af06-1b0890f4c582")
 		)
 		(pin "13"
-			(uuid "5de32d60-164b-4a05-84ed-177946920457")
+			(uuid "5de32d60-164b-4a05-84ed-177946920458")
 		)
 		(pin "11"
-			(uuid "284ad4c4-796d-4d32-a655-f66731780751")
+			(uuid "284ad4c4-796d-4d32-a655-f66731780752")
 		)
 		(pin "4"
-			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd3")
+			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd4")
 		)
 		(instances
 			(project "Guitar Multi FX Pedal"
 				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a/16e5f263-6116-424c-afa3-8a788069419a"
 					(reference "U7")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 72.39 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a98795b-52ca-46b7-a425-6b1d5e816734")
+		(property "Reference" "#PWR0114"
+			(at 72.39 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 72.39 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 72.39 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146f3a3d-4b5a-4fe3-9076-ec8919251e23")
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a/16e5f263-6116-424c-afa3-8a788069419a"
+					(reference "#PWR0114")
+					(unit 1)
 				)
 			)
 		)
@@ -13754,19 +14036,19 @@
 			)
 		)
 		(pin "12"
-			(uuid "7e3cc710-61f8-498e-a6d3-311069654169")
+			(uuid "7e3cc710-61f8-498e-a6d3-31106965416b")
 		)
 		(pin "14"
-			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67aa")
+			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67ac")
 		)
 		(pin "2"
-			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c7f")
+			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c81")
 		)
 		(pin "6"
 			(uuid "b8eb7657-7817-476b-8a55-016762f38b90")
 		)
 		(pin "1"
-			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef6")
+			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef8")
 		)
 		(pin "5"
 			(uuid "ced49578-b415-4dd3-9b6f-96e72d6b36c2")
@@ -13775,25 +14057,25 @@
 			(uuid "e0dcfd48-e14c-49b8-8c57-9d2fbf65ade5")
 		)
 		(pin "10"
-			(uuid "301ee430-22e5-45fc-9913-64dbde34310b")
+			(uuid "301ee430-22e5-45fc-9913-64dbde34310d")
 		)
 		(pin "3"
-			(uuid "69d2ca14-38c2-4751-b624-7774f11dea5f")
+			(uuid "69d2ca14-38c2-4751-b624-7774f11dea61")
 		)
 		(pin "9"
-			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd98")
+			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd9a")
 		)
 		(pin "8"
-			(uuid "1696c543-eca7-423d-af06-1b0890f4c581")
+			(uuid "1696c543-eca7-423d-af06-1b0890f4c583")
 		)
 		(pin "13"
-			(uuid "5de32d60-164b-4a05-84ed-177946920457")
+			(uuid "5de32d60-164b-4a05-84ed-177946920459")
 		)
 		(pin "11"
-			(uuid "284ad4c4-796d-4d32-a655-f66731780751")
+			(uuid "284ad4c4-796d-4d32-a655-f66731780753")
 		)
 		(pin "4"
-			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd3")
+			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd5")
 		)
 		(instances
 			(project "Guitar Multi FX Pedal"
@@ -16210,40 +16492,40 @@
 			)
 		)
 		(pin "12"
-			(uuid "7e3cc710-61f8-498e-a6d3-311069654169")
+			(uuid "7e3cc710-61f8-498e-a6d3-31106965416c")
 		)
 		(pin "14"
-			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67aa")
+			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67ad")
 		)
 		(pin "2"
-			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c7f")
+			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c82")
 		)
 		(pin "6"
-			(uuid "1842ed3e-aea6-4d4c-87f0-0b9ae569698a")
+			(uuid "1842ed3e-aea6-4d4c-87f0-0b9ae569698b")
 		)
 		(pin "1"
-			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef6")
+			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef9")
 		)
 		(pin "5"
-			(uuid "74a28b05-685d-44f0-b312-b575da974c32")
+			(uuid "74a28b05-685d-44f0-b312-b575da974c33")
 		)
 		(pin "7"
-			(uuid "a3047b72-1ad7-4e51-b44a-d09e6360d752")
+			(uuid "a3047b72-1ad7-4e51-b44a-d09e6360d753")
 		)
 		(pin "10"
-			(uuid "301ee430-22e5-45fc-9913-64dbde34310b")
+			(uuid "301ee430-22e5-45fc-9913-64dbde34310e")
 		)
 		(pin "3"
-			(uuid "69d2ca14-38c2-4751-b624-7774f11dea5f")
+			(uuid "69d2ca14-38c2-4751-b624-7774f11dea62")
 		)
 		(pin "9"
-			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd98")
+			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd9b")
 		)
 		(pin "8"
-			(uuid "1696c543-eca7-423d-af06-1b0890f4c581")
+			(uuid "1696c543-eca7-423d-af06-1b0890f4c584")
 		)
 		(pin "13"
-			(uuid "5de32d60-164b-4a05-84ed-177946920457")
+			(uuid "5de32d60-164b-4a05-84ed-17794692045a")
 		)
 		(pin "11"
 			(uuid "a8599ff3-8062-4b4d-82dd-cf2e4588cad1")
@@ -16587,19 +16869,19 @@
 			)
 		)
 		(pin "12"
-			(uuid "7e3cc710-61f8-498e-a6d3-311069654169")
+			(uuid "7e3cc710-61f8-498e-a6d3-31106965416d")
 		)
 		(pin "14"
-			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67aa")
+			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67ae")
 		)
 		(pin "2"
-			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c7f")
+			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c83")
 		)
 		(pin "6"
 			(uuid "9260726d-b177-4036-b410-65ecb7c5ef62")
 		)
 		(pin "1"
-			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef6")
+			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eefa")
 		)
 		(pin "5"
 			(uuid "53ddf25c-de39-4352-9dd9-2d87bf29446e")
@@ -16608,25 +16890,25 @@
 			(uuid "3e4b78c0-2187-4941-8b4a-cdd7a566a5d1")
 		)
 		(pin "10"
-			(uuid "301ee430-22e5-45fc-9913-64dbde34310b")
+			(uuid "301ee430-22e5-45fc-9913-64dbde34310f")
 		)
 		(pin "3"
-			(uuid "69d2ca14-38c2-4751-b624-7774f11dea5f")
+			(uuid "69d2ca14-38c2-4751-b624-7774f11dea63")
 		)
 		(pin "9"
-			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd98")
+			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd9c")
 		)
 		(pin "8"
-			(uuid "1696c543-eca7-423d-af06-1b0890f4c581")
+			(uuid "1696c543-eca7-423d-af06-1b0890f4c585")
 		)
 		(pin "13"
-			(uuid "5de32d60-164b-4a05-84ed-177946920457")
+			(uuid "5de32d60-164b-4a05-84ed-17794692045b")
 		)
 		(pin "11"
-			(uuid "284ad4c4-796d-4d32-a655-f66731780751")
+			(uuid "284ad4c4-796d-4d32-a655-f66731780754")
 		)
 		(pin "4"
-			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd3")
+			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd6")
 		)
 		(instances
 			(project "Guitar Multi FX Pedal"
@@ -17377,6 +17659,72 @@
 		)
 	)
 	(symbol
+		(lib_id "custom_power:VREF")
+		(at 72.39 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68283e9-4ba1-48a4-bde2-87ec31dca134")
+		(property "Reference" "#PWR063"
+			(at 72.39 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VREF"
+			(at 72.39 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VREF\""
+			(at 72.39 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcebdf74-e7e8-4981-8bdc-cb9fe4bd035b")
+		)
+		(instances
+			(project ""
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a/16e5f263-6116-424c-afa3-8a788069419a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 391.16 74.93 0)
 		(unit 1)
@@ -17901,19 +18249,19 @@
 			)
 		)
 		(pin "12"
-			(uuid "7e3cc710-61f8-498e-a6d3-311069654169")
+			(uuid "7e3cc710-61f8-498e-a6d3-31106965416e")
 		)
 		(pin "14"
-			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67aa")
+			(uuid "5b540b8c-282b-4d8a-ac78-91cb3bea67af")
 		)
 		(pin "2"
-			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c7f")
+			(uuid "0bf4e83f-d34f-4154-a38a-245a7f871c84")
 		)
 		(pin "6"
 			(uuid "f97d3565-c0d9-4a50-8b65-6519ad248e30")
 		)
 		(pin "1"
-			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eef6")
+			(uuid "67e34cd6-e0b6-40ff-93c0-66183391eefb")
 		)
 		(pin "5"
 			(uuid "1946607a-2dd2-47a9-ae95-cec6ae802135")
@@ -17922,25 +18270,25 @@
 			(uuid "7d65c8b0-64d0-468b-b1b7-24f8d704e749")
 		)
 		(pin "10"
-			(uuid "301ee430-22e5-45fc-9913-64dbde34310b")
+			(uuid "301ee430-22e5-45fc-9913-64dbde343110")
 		)
 		(pin "3"
-			(uuid "69d2ca14-38c2-4751-b624-7774f11dea5f")
+			(uuid "69d2ca14-38c2-4751-b624-7774f11dea64")
 		)
 		(pin "9"
-			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd98")
+			(uuid "d8cd330b-cc21-4e9c-bf79-01ce340cdd9d")
 		)
 		(pin "8"
-			(uuid "1696c543-eca7-423d-af06-1b0890f4c581")
+			(uuid "1696c543-eca7-423d-af06-1b0890f4c586")
 		)
 		(pin "13"
-			(uuid "5de32d60-164b-4a05-84ed-177946920457")
+			(uuid "5de32d60-164b-4a05-84ed-17794692045c")
 		)
 		(pin "11"
-			(uuid "284ad4c4-796d-4d32-a655-f66731780751")
+			(uuid "284ad4c4-796d-4d32-a655-f66731780755")
 		)
 		(pin "4"
-			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd3")
+			(uuid "cb24df32-6d76-443c-8258-bcc4fb100cd7")
 		)
 		(instances
 			(project "Guitar Multi FX Pedal"
