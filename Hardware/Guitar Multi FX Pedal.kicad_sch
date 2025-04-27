@@ -1143,6 +1143,48 @@
 		)
 	)
 	(sheet
+		(at 228.6 22.606)
+		(size 32.004 21.844)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0369a3ef-912f-4538-a658-a28b4d398e94")
+		(property "Sheetname" "Delay"
+			(at 228.6 21.8944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "delay.kicad_sch"
+			(at 228.6 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Guitar Multi FX Pedal"
+				(path "/0ad2f1fd-76fe-43da-85d9-356ef89f741a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 128.778 21.59)
 		(size 33.274 22.352)
 		(exclude_from_sim no)
